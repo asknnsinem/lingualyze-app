@@ -1,0 +1,63 @@
+# =========================================
+# 🧠 Lingualyze Streamlit App - .gitignore
+# =========================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- System & Editor Files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# --- Streamlit cache ---
+.streamlit/
+.cache/
+logs/
+
+# --- Data & Models ---
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.bin
+*.pt
+*.onnx
+*.model
+*.jsonl
+*.csv
+*.xlsx
+*.zip
+*.tar
+*.gz
+
+# --- Sensitive Files ---
+.env
+*.key
+*.pem
+config.yaml
+settings.json
+
+# --- Temporary Files ---
+tmp/
+temp/
+*.bak
+*.tmp
+
+xlxs-olus.py
